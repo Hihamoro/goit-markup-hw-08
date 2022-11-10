@@ -1,0 +1,36 @@
+.menu {
+    width: 40px;
+    height: 40px;
+    background-color: var(--button-color);
+    border: none;
+}
+
+.menu__close {
+    width: 40px;
+    height: 40px;
+}
+
+.menu__close {
+    display: none;
+}
+
+.is-open .menu__close {
+    display: block;
+}
+
+.menu.is-open .menu__open {
+    display: none;
+}
+
+.menu__content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    height: 150px;
+    background-color: tomato;
+}
+
+.is-open.menu__content {
+    display: block;
+}

@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--main-background);
+
+    @media screen and (min-width: $pc) {
+        &_flex {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    @media screen and (min-width: $pc) {
+        & {
+            justify-content: center;
+        }
+    }
+}
+
+.footer_logo--white {
+    margin-bottom: 20px;
+    color: var(--button-color);
+    display: inline-block;
+}
+
+.footer_div {
+    padding-top: 60px;
+    justify-content: center;
+    text-align: center;
+
+    @media screen and (min-width: $pc) {
+        & {
+            margin-right: 70px;
+            padding-top: 0;
+            text-align: left;
+        }
+    }
+
+}
