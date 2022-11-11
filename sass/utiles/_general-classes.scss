@@ -28,8 +28,10 @@
     padding-bottom: 60px;
 
     @media screen and (min-width: $pc) {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        & {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
     }
 }
 
@@ -43,9 +45,16 @@
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
+    padding: 16px 0;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+
+    @media screen and (min-width: $tab) {
+        & {
+            padding: 0;
+        }
+    }
 }
 
 .secondary-name {

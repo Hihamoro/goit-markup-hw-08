@@ -30,26 +30,36 @@
           </ul>
         </nav>
         <ul class="list head-contacts">
-          <li><a class="head-contacts__item" href="mailto:info@devstudio.com"><svg class="head-contacts__icon"
-                width="16" height="12">
+          <li><a class="head-contacts__item head-contacts__item--mail" href="mailto:info@devstudio.com"><svg
+                class="head-contacts__icon" width="16" height="12">
                 <use href="./images/icon.svg#icon-envelope"></use>
               </svg>info@devstudio.com</a></li>
-          <li><a class="head-contacts__item" href="tel:+380961111111"><svg class="head-contacts__icon" width="10"
-                height="16">
+          <li><a class="head-contacts__item head-contacts__item--phone" href="tel:+380961111111"><svg
+                class="head-contacts__icon" width="10" height="16">
                 <use href="./images/icon.svg#icon-smartphone"></use>
               </svg>+38 096 111 11 11</a></li>
+        </ul>
+        <ul class="head-socials list">
+          <li class="head-socials_item"><a class="head-socials__link" href="https://www.instagram.com/" target="_blank"
+              aria-label="instagram">Instagram</a></li>
+          <li class="head-socials_item"><a href="https://twitter.com/" target="_blank" aria-label="twitter">Twitter</a>
+          </li>
+          <li class="head-socials_item"><a href="https://www.facebook.com/" target="_blank"
+              aria-label="facebook">Facebook</a></li>
+          <li class="head-socials_item"><a href="https://www.linkedin.com/" target="_blank"
+              aria-label="linkedin">Linkedin</a></li>
         </ul>
       </div>
       <button class="menu is-open" type="button" data-menu-button><svg class="menu__icon" width="24" height="16"
           aria-label="Мобільне меню">
-          <use class="menu__open" href="images/icon.svg#icon-close-black"></use>
+          <use class="menu__open" href="images/icon.svg#icon-big-close"></use>
           <use class="menu__close" href="images/icon.svg#icon-menu"></use>
         </svg>
       </button>
 
     </div>
   </header>
-  <!-- <main>
+  <main>
     <section class="hero section">
       <div class="container">
         <h1 class="hero__name">Ефективні рішення для вашого бізнесу</h1>
@@ -337,7 +347,7 @@
         <button class="form__send" type="submit">Відправити</button>
       </form>
     </div>
-  </div> -->
+  </div>
   <script src="./js/menu.js"></script>
   <script src="./js/modal.js"></script>
 </body>
