@@ -2,7 +2,7 @@
     background-color: var(--main-background);
 
     @media screen and (min-width: $pc) {
-        &_flex {
+        &__flex {
             display: flex;
             align-items: center;
         }
@@ -11,6 +11,16 @@
     @media screen and (min-width: $pc) {
         & {
             justify-content: center;
+        }
+    }
+}
+
+.footer__div {
+    @media screen and (min-width: $tab) {
+        & {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
         }
     }
 }
