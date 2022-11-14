@@ -246,7 +246,6 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head-contacts__item:hover, .head-contacts__item:focus {
@@ -254,10 +253,12 @@ p {
 }
 @media screen and (max-width: 767px) {
   .head-contacts__item--phone {
+    color: var(--accent-color);
     font-size: 34px;
     line-height: 1.17;
   }
   .head-contacts__item--mail {
+    color: var(--title-text-color);
     font-size: 24px;
     line-height: 1.16;
   }
@@ -267,6 +268,7 @@ p {
 }
 @media screen and (min-width: 768px) {
   .head-contacts__item {
+    color: var(--title-text-color);
     margin-bottom: 0px;
   }
   .head-contacts__item--nontab {
@@ -399,7 +401,9 @@ p {
   line-height: 1.22;
   letter-spacing: 0.02em;
   gap: 10px;
-  color: #2196F3;
+}
+.head-socials__link {
+  color: var(--accent-color);
 }
 @media screen and (min-width: 768px) {
   .head-socials {
@@ -407,7 +411,7 @@ p {
   }
 }
 
-.head-socials_item:not(:last-child) {
+.head-socials__item:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
   padding-right: 10px;
 }
@@ -1144,7 +1148,7 @@ p {
   right: 28px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 450px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .subscribe__form {
     margin: auto;
     justify-content: center;

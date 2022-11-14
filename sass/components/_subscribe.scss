@@ -46,7 +46,7 @@
 
 .subscribe__form {
 
-    @media screen and (min-width: $tab) and (max-width:450px) {
+    @media screen and (min-width: $tab) and (max-width: 1199px) {
         & {
             margin: auto;
             justify-content: center;
