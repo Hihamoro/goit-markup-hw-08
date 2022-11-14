@@ -261,15 +261,16 @@ p {
     font-size: 24px;
     line-height: 1.16;
   }
+  .head-contacts__item--nonphone {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .head-contacts__item {
     margin-bottom: 0px;
   }
-}
-@media screen and (min-width: 1200px) {
-  .head-contacts__item {
-    margin-bottom: 0;
+  .head-contacts__item--nontab {
+    display: none;
   }
 }
 
@@ -1022,6 +1023,7 @@ p {
     padding-top: 0;
     margin-right: 70px;
     width: 231px;
+    text-align: start;
   }
 }
 
